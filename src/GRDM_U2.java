@@ -199,6 +199,7 @@ public class GRDM_U2 implements PlugIn {
 					luminanz = (128 + (luminanz - 128) * contrast) + brightness;
 					u = (u * contrast * saturation);
 					v = (v * contrast * saturation);
+					hue =
 
 
 

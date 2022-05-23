@@ -77,7 +77,7 @@ public class GRDM_U2_s0582708 implements PlugIn {
         private double brightness;
         private double contrast = 1;
         private double saturation = 1;
-        private double hue = 180;
+        private double hue;
 
         CustomWindow(ImagePlus imp, ImageCanvas ic) {
             super(imp, ic);
